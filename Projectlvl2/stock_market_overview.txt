@@ -1,0 +1,168 @@
+STOCK MARKET OVERVIEW
+Compiled: August 19, 2026
+(Figures are snapshots and shift daily — verify current prices before acting on them.)
+
+=====================================================
+1. TOP 10 STOCKS BY MARKET CAPITALIZATION (US-listed)
+=====================================================
+Roughly as of mid-August 2026:
+
+ 1. NVIDIA (NVDA)          ~$5.45 trillion  — AI/GPU chips
+ 2. Apple (AAPL)            ~$4.47 trillion — consumer tech
+ 3. Alphabet (GOOGL/GOOG)   ~$4.23 trillion — search, cloud, AI
+ 4. Microsoft (MSFT)        ~$3.68 trillion — software, cloud, AI
+ 5. Amazon (AMZN)           ~$2.83 trillion — e-commerce, cloud (AWS)
+ 6. Taiwan Semiconductor (TSM) ~$2.21 trillion — chip manufacturing
+ 7. Broadcom (AVGO)         ~$1.87 trillion — semiconductors/networking
+ 8. SpaceX (SPCX)*          ~$1.76 trillion — space, satellites
+ 9. Meta Platforms (META)   ~$1.50 trillion — social media, AI
+10. Tesla (TSLA)            ~$1.35 trillion — EVs, energy, robotics
+
+*SpaceX trades on private secondary markets, not a public exchange.
+Other notables near the top: Micron (MU), Berkshire Hathaway (BRK.B), Eli Lilly (LLY) — each over $1 trillion.
+
+Key trend: AI and semiconductor companies dominate the top of the list.
+The top 10 S&P 500 stocks now make up roughly 42% of the index's total
+value — a new record, higher than the dot-com-bubble peak (~29%).
+
+=====================================================
+2. WHAT'S MOVING THE MARKET RIGHT NOW (mid-August 2026)
+=====================================================
+
+- FEDERAL RESERVE / INTEREST RATES
+  The Fed has held its benchmark rate at 3.5%-3.75% for most of 2026.
+  Rate-cut odds for the September meeting have swung sharply — from
+  around 50% a few weeks ago down to roughly 30% — as investors weigh
+  a weak July jobs report (a surprise loss of jobs) against signs of
+  still-elevated inflation. No FOMC meeting is scheduled in August, so
+  the next real catalyst is the September meeting.
+
+- INFLATION & BOND YIELDS
+  Sovereign bond yields have pushed to multi-decade highs on concerns
+  about persistent inflation and elevated oil prices, which has
+  pressured stocks (the S&P 500 fell as yields rose in mid-August).
+
+- LABOR MARKET
+  Job growth has weakened and labor-force participation has dropped,
+  fueling debate over whether the Fed should prioritize supporting
+  jobs or keep fighting inflation.
+
+- OIL & ENERGY
+  Crude oil has climbed above $82/barrel. Refiners have hit all-time
+  highs as diesel margins widen due to constrained refining capacity
+  in Russia and the Middle East.
+
+- CURRENCY / JAPAN
+  The Japanese yen has weakened toward 40-year lows against the dollar,
+  prompting a coordinated US-Japan intervention. Traders are watching
+  whether the Bank of Japan raises rates to support the currency.
+
+- AI / SEMICONDUCTOR STRENGTH
+  Chip stocks have been a major driver of Nasdaq gains, with the
+  semiconductor sector (e.g., SOXX ETF) posting strong weekly gains as
+  AI infrastructure spending continues.
+
+- CORPORATE EARNINGS
+  Q2 earnings season has been broadly solid, helping lift the S&P 500
+  to repeated record highs (it topped 7,800 in mid-August), though
+  some consumer-facing companies (e.g., retailers, fast food) have
+  flagged pressure from tariffs, fuel/input costs, and cautious
+  discretionary spending.
+
+- GOVERNMENT DEFICIT / FISCAL POLICY
+  The federal budget deficit is running about 10% higher than the
+  same point last year, a background factor for long-term bond yields.
+
+- GEOPOLITICS / TARIFFS
+  Trade policy and tariff threats continue to be a recurring source of
+  volatility, as they were earlier in the year.
+
+=====================================================
+3. OTHER IMPORTANT THINGS TO KNOW ABOUT STOCKS
+=====================================================
+
+- MARKET CAP vs. PRICE
+  A stock's price alone doesn't tell you if a company is "big" — market
+  cap (price × shares outstanding) is the real measure of size.
+
+- DIVERSIFICATION
+  Concentration risk is elevated right now: with the top 10 S&P 500
+  stocks at ~42% of the index, an "index fund" investor is more exposed
+  to a handful of mega-cap tech/AI names than historical norms suggest.
+
+- VOLATILITY DRIVERS
+  Interest rate expectations, inflation data (CPI/PCE), jobs reports,
+  earnings season, and geopolitical/tariff news are the recurring
+  triggers for single-day market swings.
+
+- LONG-TERM vs. SHORT-TERM
+  Historically, the market rewards long time horizons; trying to time
+  short-term moves around Fed meetings or headlines is difficult even
+  for professionals.
+
+- THIS IS NOT FINANCIAL ADVICE
+  This file is a general informational snapshot, not a recommendation
+  to buy or sell any security. Market data changes daily — verify
+  current figures before making decisions, and consider consulting a
+  licensed financial advisor.
+
+=====================================================
+4. MARKET MANIPULATION — WHAT IT IS (FOR AWARENESS/PROTECTION)
+=====================================================
+Understanding these schemes helps investors recognize and avoid being
+victimized by them. (This is general education, not instructions for
+executing any scheme — some of the tactics below are illegal.)
+
+- PUMP AND DUMP
+  Promoters hype a low-volume/low-cap stock (often via social media or
+  paid newsletters) to drive the price up, then sell their shares into
+  the buying frenzy, leaving late buyers holding losses.
+
+- SHORT-AND-DISTORT
+  The mirror image of pump-and-dump: a trader shorts a stock, then
+  spreads negative (often false or exaggerated) information to drive
+  the price down before covering the short at a profit.
+
+- SPOOFING / LAYERING
+  Placing large orders with no intent to execute them, to create a
+  false impression of supply or demand, then canceling before they
+  fill. This is illegal under US securities law (e.g., the Dodd-Frank
+  Act) and enforced by the SEC/CFTC.
+
+- WASH TRADING
+  Simultaneously buying and selling the same security to create
+  misleading activity/volume signals, making a stock look more liquid
+  or popular than it really is.
+
+- INSIDER TRADING
+  Trading based on material, non-public information (e.g., knowledge
+  of an unannounced merger or earnings result) — illegal and actively
+  prosecuted by the SEC.
+
+- RUMOR-MONGERING / FAKE NEWS
+  Spreading false press releases, fake analyst reports, or deepfaked
+  executive statements to move a stock, especially common with
+  low-float or meme stocks.
+
+- HOW TO PROTECT YOURSELF
+  - Be skeptical of stocks being aggressively promoted on social media
+    or via unsolicited "hot tip" messages.
+  - Check trading volume and float — thinly traded stocks are far
+    easier to manipulate.
+  - Verify news through primary sources (SEC filings, official company
+    press releases) rather than social media screenshots.
+  - Be wary of guaranteed-return claims — legitimate investing always
+    carries risk.
+  - Report suspected manipulation to the SEC (sec.gov/tcr) or FINRA.
+
+=====================================================
+SOURCES
+=====================================================
+- CNBC Markets (cnbc.com) — daily market recaps, Aug 2026
+- ChartRow.com — market cap rankings, Aug 2026
+- FinanceCharts.com — biggest companies by market cap
+- First Financial Trust — Market Week commentary, Aug 17, 2026
+
+Note: Market data is highly time-sensitive. For live prices, always
+check a real-time source (e.g., your broker, Google Finance, or a
+financial data terminal).
