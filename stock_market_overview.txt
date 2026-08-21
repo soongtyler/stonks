@@ -1,29 +1,44 @@
 STOCK MARKET OVERVIEW
-Compiled: August 19, 2026
+Compiled: August 19, 2026 (updated August 20, 2026)
 (Figures are snapshots and shift daily — verify current prices before acting on them.)
 
 =====================================================
-1. TOP 10 STOCKS BY MARKET CAPITALIZATION (US-listed)
+1. TOP 25 STOCKS BY MARKET CAPITALIZATION (US-listed)
 =====================================================
-Roughly as of mid-August 2026:
+As of market close, August 19, 2026 (source: ChartRow):
 
- 1. NVIDIA (NVDA)          ~$5.45 trillion  — AI/GPU chips
- 2. Apple (AAPL)            ~$4.47 trillion — consumer tech
- 3. Alphabet (GOOGL/GOOG)   ~$4.23 trillion — search, cloud, AI
- 4. Microsoft (MSFT)        ~$3.68 trillion — software, cloud, AI
- 5. Amazon (AMZN)           ~$2.83 trillion — e-commerce, cloud (AWS)
- 6. Taiwan Semiconductor (TSM) ~$2.21 trillion — chip manufacturing
- 7. Broadcom (AVGO)         ~$1.87 trillion — semiconductors/networking
- 8. SpaceX (SPCX)*          ~$1.76 trillion — space, satellites
- 9. Meta Platforms (META)   ~$1.50 trillion — social media, AI
-10. Tesla (TSLA)            ~$1.35 trillion — EVs, energy, robotics
+ 1. NVIDIA (NVDA)              $5.27 trillion — AI/GPU chips
+ 2. Apple (AAPL)                $4.62 trillion — consumer tech
+ 3. Alphabet (GOOGL/GOOG)       $4.22 trillion — search, cloud, AI
+ 4. Microsoft (MSFT)            $3.60 trillion — software, cloud, AI
+ 5. Amazon (AMZN)                $2.87 trillion — e-commerce, cloud (AWS)
+ 6. Taiwan Semiconductor (TSM)  $2.14 trillion — chip manufacturing
+ 7. SpaceX (SPCX)*               $1.89 trillion — space, satellites
+ 8. Broadcom (AVGO)             $1.72 trillion — semiconductors/networking
+ 9. Tesla (TSLA)                 $1.39 trillion — EVs, energy, robotics
+10. Meta Platforms (META)       $1.39 trillion — social media, AI
+11. Eli Lilly (LLY)              $1.15 trillion — pharma (GLP-1/obesity drugs)
+12. Berkshire Hathaway (BRK.B)  $1.08 trillion — conglomerate/holding co.
+13. Micron (MU)                  $1.06 trillion — memory chips
+14. JPMorgan Chase (JPM)         $950 billion  — banking/financial services
+15. Walmart (WMT)                $910 billion  — retail
+16. Advanced Micro Devices (AMD) $761 billion  — CPUs/GPUs, AI chips
+17. Visa (V)                     $680 billion  — payments network
+18. Exxon Mobil (XOM)            $678 billion  — oil & gas
+19. ASML Holding (ASML)          $675 billion  — semiconductor equipment
+20. Johnson & Johnson (JNJ)      $659 billion  — pharma/healthcare
+21. Mastercard (MA)              $503 billion  — payments network
+22. AbbVie (ABBV)                $470 billion  — pharma/biotech
+23. Intel (INTC)                 $468 billion  — semiconductors
+24. Bank of America (BAC)        $442 billion  — banking/financial services
+25. Cisco Systems (CSCO)         $436 billion  — networking hardware
 
 *SpaceX trades on private secondary markets, not a public exchange.
-Other notables near the top: Micron (MU), Berkshire Hathaway (BRK.B), Eli Lilly (LLY) — each over $1 trillion.
 
 Key trend: AI and semiconductor companies dominate the top of the list.
-The top 10 S&P 500 stocks now make up roughly 42% of the index's total
-value — a new record, higher than the dot-com-bubble peak (~29%).
+13 US-listed companies are now worth $1 trillion or more. The top 10
+S&P 500 stocks make up roughly 42% of the index's total value — a new
+record, higher than the dot-com-bubble peak (~29%).
 
 =====================================================
 2. WHAT'S MOVING THE MARKET RIGHT NOW (mid-August 2026)
@@ -156,13 +171,136 @@ executing any scheme — some of the tactics below are illegal.)
   - Report suspected manipulation to the SEC (sec.gov/tcr) or FINRA.
 
 =====================================================
+5. "TRUSTWORTHY" STOCKS — WHAT THAT ACTUALLY MEANS
+=====================================================
+There's no such thing as a risk-free stock — even the largest, oldest
+companies can fall sharply (see Section 6). But some traits are
+generally associated with lower-risk, more stable companies. This
+section explains the traits and gives illustrative examples; it is
+not a buy recommendation.
+
+- TRAITS INVESTORS OFTEN ASSOCIATE WITH "TRUSTWORTHY" STOCKS
+  - Long track record of consistent (not necessarily explosive)
+    earnings and revenue growth across multiple economic cycles.
+  - Strong, defensible competitive position ("economic moat") — brand
+    power, network effects, patents, or high switching costs.
+  - Low debt relative to earnings, and healthy free cash flow.
+  - History of paying and growing a dividend. A well-known subset is
+    the "Dividend Aristocrats" — S&P 500 companies that have raised
+    their dividend every year for 25+ consecutive years.
+  - Transparent financial reporting and stable management/governance,
+    with no history of accounting scandals or restatements.
+  - Diversified revenue (not overly dependent on one product, customer,
+    or country).
+  - Large market capitalization ("blue chip") and high trading volume,
+    which generally makes a stock harder to manipulate and easier to
+    exit if needed.
+
+- CATEGORIES OFTEN CITED AS RELATIVELY LOWER-RISK
+  - Large-cap "blue chip" companies with long operating histories
+    (e.g., long-established industrials, consumer staples, and
+    healthcare companies).
+  - Dividend Aristocrats / Dividend Kings — companies with multi-decade
+    records of raising dividends, often in staples, healthcare, and
+    industrials.
+  - Broad-market index funds/ETFs (e.g., an S&P 500 or total-market
+    fund) — these spread risk across hundreds of companies instead of
+    depending on any single one, though see the concentration-risk
+    note in Section 3.
+  - Utilities and essential-services companies — demand for their
+    product tends to stay stable regardless of the economic cycle.
+
+- IMPORTANT CAVEATS
+  - "Stable historically" does not mean "guaranteed going forward."
+    Companies once considered unshakeable (e.g., General Electric,
+    Kodak, various large banks in 2008) have suffered severe declines.
+  - A high dividend yield can sometimes be a warning sign (a falling
+    stock price mechanically raises the yield), not a sign of safety —
+    check whether the dividend is well-covered by free cash flow.
+  - "Trustworthy" is about business durability, not short-term price
+    behavior — even the steadiest companies can see their stock price
+    swing significantly in a bad year.
+  - Always check current fundamentals (debt levels, earnings trends,
+    payout ratio) yourself or with an advisor rather than relying on a
+    company's past reputation alone.
+
+=====================================================
+6. 10 RISKS TO UNDERSTAND BEFORE INVESTING
+=====================================================
+
+ 1. MARKET RISK (SYSTEMATIC RISK)
+    The whole market can fall due to recessions, rate hikes, or shocks
+    — even fundamentally strong companies get pulled down with it.
+    Diversification across asset classes can reduce, but never
+    eliminate, this risk.
+
+ 2. COMPANY-SPECIFIC (BUSINESS) RISK
+    A single company can decline due to poor management decisions,
+    a failed product, loss of a major customer, or a damaged brand —
+    independent of the broader market.
+
+ 3. CONCENTRATION RISK
+    Holding too much in one stock, sector, or a handful of mega-cap
+    names (as flagged in Section 3) means a problem in that one area
+    can disproportionately hurt your whole portfolio.
+
+ 4. LIQUIDITY RISK
+    Thinly traded stocks can be hard to sell quickly at a fair price,
+    especially during a downturn, which can force you to accept a
+    worse price than the last quoted one.
+
+ 5. INTEREST RATE RISK
+    Rising rates can pressure stock valuations (especially growth
+    stocks) by making future earnings worth less today, and can make
+    bonds/cash more attractive relative to stocks.
+
+ 6. INFLATION RISK
+    Even if your portfolio grows in dollar terms, high inflation can
+    erode the real purchasing power of those returns.
+
+ 7. CURRENCY / GEOPOLITICAL RISK
+    Companies with significant international revenue are exposed to
+    exchange-rate swings, tariffs, trade disputes, sanctions, and
+    political instability abroad.
+
+ 8. REGULATORY / LEGAL RISK
+    New laws, antitrust action, tax changes, or lawsuits can materially
+    affect a company's profitability or even its ability to operate.
+
+ 9. EMOTIONAL / BEHAVIORAL RISK
+    Panic-selling during downturns or chasing hype during rallies
+    (fear and greed) tends to hurt long-term returns more than the
+    market moves themselves — this is one of the most common and
+    avoidable risks for individual investors.
+
+10. FRAUD / MANIPULATION RISK
+    As covered in Section 4, some stocks are targeted by pump-and-dump
+    schemes, fake news, or outright fraud (e.g., falsified financials).
+    Lower-float and heavily promoted stocks are the most exposed.
+
+- MANAGING THESE RISKS (GENERAL PRINCIPLES, NOT ADVICE)
+  - Diversify across companies, sectors, and asset classes.
+  - Match your time horizon and risk tolerance to your investments —
+    money you need soon generally shouldn't be in volatile assets.
+  - Avoid concentrating too heavily in any single stock, however
+    "trustworthy" it seems.
+  - Rebalance periodically rather than reacting emotionally to swings.
+  - Do your own research (or work with a licensed advisor) instead of
+    acting on hype, social media tips, or guaranteed-return claims.
+
+=====================================================
 SOURCES
 =====================================================
 - CNBC Markets (cnbc.com) — daily market recaps, Aug 2026
 - ChartRow.com — market cap rankings, Aug 2026
 - FinanceCharts.com — biggest companies by market cap
 - First Financial Trust — Market Week commentary, Aug 17, 2026
+- General investing education on dividend growth investing, risk
+  categories, and portfolio diversification (standard financial
+  literacy concepts, not tied to a single time-sensitive source)
 
 Note: Market data is highly time-sensitive. For live prices, always
 check a real-time source (e.g., your broker, Google Finance, or a
-financial data terminal).
+financial data terminal). This document is educational and is not
+financial advice — consider speaking with a licensed financial
+advisor before making investment decisions.

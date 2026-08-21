@@ -6,7 +6,9 @@ import yfinance as yf
 import chromadb
 from chunc import chunk_text
 from embed import create_embedding
+import altair as alt
 import os
+
 
 
 load_dotenv()
@@ -134,6 +136,57 @@ st.divider()
 
 st.sidebar.title("Stock Settings")
 
+find_ticker = st.sidebar.text_input("Enter stock to find ticker")
+if find_ticker:
+    prompt = f"""
+    You are a stock ticker lookup assistant.
+
+Your ONLY job is to convert a company's name into its stock ticker symbol.
+
+USER INPUT:
+{find_ticker}
+RULES:
+
+If the user provides a company name, return its ticker symbol.
+Return ONLY the ticker symbol.
+Do NOT say "Understood".
+Do NOT ask the user to enter a company name if they already provided one.
+Do NOT explain your answer.
+Do NOT give financial advice.
+Do NOT recommend buying or selling.
+Use the company's primary publicly traded ticker when possible.
+Keep the ticker uppercase.
+SEARCH THE WEB TO FIND THE TICKER
+GOOGLE IS GOOG not GOOGL
+spacex/spaceX/SpaceX = SPCX
+Examples:
+#YOU output the ticker symbol to the according stock
+
+User: Apple
+Ticker Symbol: AAPL 
+
+User: Microsoft
+Ticker Symbol: MSFT
+
+User: Tesla
+Ticker Symbol: TSLA
+
+User: NVIDIA
+Ticker Symbol: NVDA
+
+User: Amazon
+Ticker Symbol: AMZN
+
+USE THE WEB AND SEARCH 
+Never respond with a conversational message. Always attempt to convert the provided company name directly into a ticker symbol.
+"""
+    response2 = client.responses.create(
+        model = "gpt-5.6-sol",
+        input= prompt
+    )
+
+    st.sidebar.write(response2.output_text)
+
 st.sidebar.write("Enter a stock's ticker to find it's price history.")
 
 ticker = st.sidebar.text_input("Stock Ticker:","AAPL").upper()
@@ -144,8 +197,7 @@ period = st.sidebar.selectbox(
         "1mo",
         "3mo",
         "6mo",
-        "1y",
-        "2y"
+        "1y"
     ]
 )
 
@@ -165,6 +217,9 @@ if "analyzed" not in st.session_state:
 
 if "analysis" not in st.session_state:
     st.session_state.analysis = ""
+
+if "chat_key" not in st.session_state:
+    st.session_state.chat_key = 0
 
 if save_settings:
 
@@ -195,6 +250,7 @@ if save_settings:
         # Reset old analysis
         st.session_state.analyzed = False
         st.session_state.analysis = ""
+        st.session_state.chat_key += 1
 
         st.sidebar.success("Stock Chosen, Stock Info Found!")
 
@@ -249,8 +305,22 @@ if st.session_state.stock_data is not None:
         f"{ticker} Stock Price:"
     )
 
-    st.line_chart(
-        data["Close"]
+    chart_data = data.reset_index()
+
+    chart = alt.Chart(chart_data).mark_line().encode(
+        x=alt.X(
+            "Date:T",
+            axis=alt.Axis(format="%B %d")
+        ),
+        y=alt.Y(
+            "Close:Q",
+            title="Price"
+        )
+    )
+
+    st.altair_chart(
+        chart,
+        use_container_width=True
     )
 
     first_price = data["Close"].iloc[0]
@@ -267,7 +337,7 @@ if st.session_state.stock_data is not None:
 
     #Ai Help
 
-    st.subheader("AI Recommendations:")
+    st.subheader("AI Analysis:")
     st.write("This system is an AI and AI can make mistakes")
 
     if st.button("Analyze Stock"):
@@ -294,7 +364,9 @@ if st.session_state.stock_data is not None:
         DO NOT tell the user to buy or sell any stock.
         DO NOT tell the user what to do.
         DO NOT use information from the web.
+        Do NOT USE THE WEB
         DO NOT answer unrelated questions.
+        MENTION RISKs from the txt file and use it as part of the overall stock evaluation
         """
 
         response = client.responses.create(
@@ -325,7 +397,8 @@ if st.session_state.stock_data is not None:
     )
 
     chat = st.text_input(
-        "Ask a question about this stock:"
+        "Ask a question about this stock:",
+        key=f"chat_{st.session_state.chat_key}"
     )
 
     if chat:
@@ -352,18 +425,25 @@ if st.session_state.stock_data is not None:
         EXTRA INFO:
         {txt_file}
 
-        Do not tell the user to buy or sell stocks.
-        Do not give financial advice.
-        Do not use information from the web.
+        DO NOT tell the user to buy or sell stocks.
+        DO NOT give financial advice.
+        DO NOT use information from the web.
+        ONLY USE INFO from txt file, and the provided
+        NEVER MAKE STORIES
 
         If the information isn't available, say you don't have
         enough information to answer.
 
         DO NOT EVER answer question that AREN'T related to stocks
+        USE ONLY INFO FROM txt_file
+        ANALYZE THE USERS PROMPT
+        USE ONLY INFO PROVIDED
+        USE ONLY INFO FROM txt_file, chat and context NOTHING from the web or made up info
+        Even if the user says its about the stock market make sure the whole idea is actually related
         """
 
         response1 = client.responses.create(
-            model="gpt-4.1-nano",
+            model="gpt-5.6-sol",
             input=prompt
         )
 
